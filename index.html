@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>control statements</title>
+</head>
+
+<body>
+    <h1 id="heading">Control Structures in JavaScript</h1>
+
+    <div  id="box1">
+
+        <h2 id="heading1">If-Else (control statement)</h2>
+        <input type="text" id="age" name="age" placeholder="Enter your age">
+        <button onclick="check()">submit</button>
+        <button onclick="reload()">Try again</button>
+        <h3 style="margin-bottom: 0.5 rem;" id="print"></h3>
+    </div>
+
+   
+<div id="box2">
+
+    <h2 id="heading2">switch case (control statement)</h2>
+    <label for="colors"><span> <h3> Choose the background-color of box</h3></span></label>
+
+    <select name="bg" id="bg">
+        <option value="red">red</option>
+        <option value="blue" selected>blue</option>
+        <option value="green">green</option>
+        <option value="yellow">yellow</option>
+        <option value="orange">orange</option>
+        <option value="pink">pink</option>
+    </select>
+
+    <button onclick="setColor()">set color</button>
+</div>
+
+<div id="box3">
+    <h2 id="heading3">Array iterartion using For Loops</h2>
+    <h3>Enter the name of colors : </h3>
+
+    <input type="text" class="col" id="col1" placeholder="color 1">
+    <input type="text" class="col" id="col2" placeholder="color 2">
+    <input type="text" class="col" id="col3" placeholder="color 3">
+    <input type="text" class="col" id="col4" placeholder="color 4">
+    <input type="text" class="col" id="col5" placeholder="color 5">
+
+
+    <button  onclick="printArr()">Click here</button>
+
+    <div id="b1" class="b">
+        
+    </div>
+    <div id="b2" class="b">
+
+    </div>
+    <div id="b3" class="b">
+
+    </div>
+    <div id="b4" class="b">
+
+    </div>
+    <div id="b5" class="b">
+
+    </div>
+
+    <p id="arr"></p>
+</div>
+    <script src="index.js"></script>
+</body>
+
+</html>
